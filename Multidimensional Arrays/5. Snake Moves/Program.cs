@@ -41,9 +41,9 @@ for (int r = 0; r < rows; r++)
     }
     currentRow++;
 }
-for (int r = 0; r < rows; r++)
+for (int r = 0; r < matrix.GetLength(0); r++)
 {
-    for (int c = 0; c < cols; r++) 
+    for (int c = 0; c < matrix.GetLength(1); c++) 
     {
         Console.Write(matrix[r, c]);
     }
